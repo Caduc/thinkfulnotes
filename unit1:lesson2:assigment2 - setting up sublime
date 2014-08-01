@@ -1,0 +1,42 @@
+unit1/lesson2/assigment2 - setting up sublime
+	???was unable to get sidebarenhancements.  I gave up.  I also read that there was some issues with ST3 on mavericks.  I'm going to chaulk it up to that.
+unit1/lesson2/assigment3 - Git best practices
+	??? xcode already has GIT, but when I install GIT using the online guides, I couldn't tell which version was being used.  There was also reference to changing.
+Unit1/Lesson3/Assignment 1
+	boolean operators
+		==
+		=!
+		<
+		>
+		<=
+		>=
+	Numbers
+		floats or integers
+	Strings
+		obvious
+	None
+		represents the absence of value
+Unit1/Lesson3/Assignment 1
+	Format
+		-Older versions use %s, everything after 2.7 can use .format() 
+		-I don't really understand, but to print, put the format commmand inside of {} and follow it with format() with the information being in the ().  print("{:.2f}".format(3.1415926))
+		-f decimal places
+		-d is padding using >for left padding and >for right padding
+		-, puts commas in
+		-% puts in the percent sign
+	Named Arguments
+		use variable names in the format() section using the {} instead of just using the place holder numbers .format(cat1="ginger", cat2="tabby")
+	{:.2f}.format(3.1415926)
+	??? variables that I'm storing in my python environment when I'm testing.  How do I remove or erase them.  this includes dictionaries/lists/etc
+
+Unit1/lesson3/assignment4 - Dictionaries
+	??? how do you remove a key from a dictionary.  I see how to delete a value associated with a key, but not remove the key itself. NEVER MIND... GOT IT.
+Unit1/lesson3/assignment5 - practice lists and dictionaries
+	??? this is the first time that they used something besides %s for a reference.
+		list_length = 4# Set this to the length of suitcase
+		print "There are %d items in the suitcase." % (list_length)	
+	-if you are 'slicing' and need the last itme of a list, you need to include one beyond the last itme in the list.... trippy.
+	-index searches a list
+	-??? when would sort have something included in the ()  this tutorial only shows when nothing is inbetween the two.  COMPARITORS.
+		!!! https://docs.python.org/2.7/library/stdtypes.html#mutable-sequence-types
+		!!! 
